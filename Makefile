@@ -1,2 +1,2 @@
-main: 
-	g++ main.cpp -o main
+all: 
+	g++ main.cpp -o main.exe
