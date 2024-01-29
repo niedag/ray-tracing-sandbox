@@ -1,2 +1,2 @@
 all: 
-	g++ main.cpp -o main.exe
+	g++ main.cpp vec3.h -o main.exe
