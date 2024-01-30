@@ -37,9 +37,16 @@ class vec3 {
         vec3& operator/=(double t) {
             return *this *= 1/t;
         }
-
         double length() const {
             return sqrt(length_squared());
         }
+       double length_squared() const {
+            return e[0]*e[0] + e[1]*e[1] + e[2]*e[2];
+        }
+};
 
-}
+// point3 set as an alias for vec3, helpful for geometric clarity
+using point3 = vec3;
+
+
+
