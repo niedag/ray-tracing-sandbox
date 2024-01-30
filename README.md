@@ -6,3 +6,7 @@ Link to project source:
 https://raytracing.github.io/books/RayTracingInOneWeekend.html
 
 Be careful that between compiling between the Codespace and local system that the compiled file matches the OS.
+To build the .ppm file simply use
+```
+./main.exe > image.ppm
+```
