@@ -10,3 +10,4 @@ To build the .ppm file simply use
 ```
 ./main.exe > image.ppm
 ```
+Open .ppm files with GIMP or other digial media viewing software
