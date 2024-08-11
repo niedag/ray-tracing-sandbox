@@ -11,3 +11,5 @@ To build the .ppm file simply use
 ./main.exe > image.ppm
 ```
 Open .ppm files with GIMP, internet browsers, or in a codespace/vscode with PBM/PPM/PGM Viewer extension
+
+---Incomplete---
